@@ -38,6 +38,8 @@ subject_test.txt
 x_test.txt
 y_test.txt
 
+The steps:
+
 1. Merges the training and the test sets to create one data set.
  Reading data from files
  Setting train column names
@@ -60,18 +62,34 @@ y_test.txt
 Variables:
 
 features 			Contains the data of the file features.txt
+
 activityLabels		Contains the data of the file activity_labels.txt
+
 subjectTrain 		Contains the data of the file subject_train.txt
+
 xTrain 				Contains the data of the file x_train.txt
+
 yTrain 				Contains the data of the file y_train.txt
+
 trainingData		Contains the training merged data
+
 subjectTest			Contains the data of the file subject_test.txt
+
 xTest				Contains the data of the file x_test.txt
+
 yTest				Contains the data of the file y_test.txt
+
 testData			Contains the test merged data
+
 tData				Contains the traning and test merged data
+
 colNames			Contains the columns names
+
 usefulCols			A logical vector that contains the useful columns for mean and standar deviation
+
 fData				Data set with activities data, mean and std dev
+
 fDataNoName			Like fData without activities names
+
 tidyData			The final data with mean by activity and subject
+
